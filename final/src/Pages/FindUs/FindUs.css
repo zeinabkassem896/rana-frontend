@@ -1,0 +1,20 @@
+.find-us-page-container{
+    flex-wrap: wrap !important;
+}
+.findus-page-title{
+    margin-top: 180px !important;
+    /* align-items: center; */
+
+}
+
+.findus-link-text{
+    text-align: center !important;
+}
+@media (max-width: 600px){
+    .findus-left-div{
+        width:max-content !important;
+    }
+    .findus-right-div{
+        width: max-content !important;
+    }
+}

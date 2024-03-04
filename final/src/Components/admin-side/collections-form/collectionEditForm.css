@@ -1,0 +1,91 @@
+.form-container-edit-collection {
+    position: absolute;
+    left: 560px;
+    top: 150px;
+    z-index: 1;
+    min-height: 68vh;
+    width: 740px;
+    background: rgb(38, 38, 44); 
+    border-radius: 12px;
+    padding-top: 20px;
+  }
+  
+  .form-edit-collection {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .input-label-container-collection-edit label {
+    color: white
+  }
+  
+  
+  .input-label-container-collection-edit {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 20px; 
+  }
+  
+  .label-collection-edit {
+    margin-bottom: 5px; 
+    font-size: 16px; 
+    color: #333;
+     display: flex;
+    flex-direction: column;
+  }
+  
+  .input-label-container-collection-edit input,
+  .input-label-container-collection-edit textarea {
+    width: 100%; 
+    padding: 8px; 
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    border-top: none ;
+    border-left: none ;
+    border-right: none;
+    border-bottom: 1px solid rgb(28, 105, 228) ;
+  }
+  
+  .collection-buttons-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .edit-collection-1 button,
+  .cancel-collection-1 button {
+    background: rgb(21, 83, 181);
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 12px;
+    padding: 8px;
+  }
+ 
+  .input-label-container-collection-edit .edit-collection-1 button:hover,
+  .input-label-container-collection-edit .cancel-collection-1 button:hover  {
+    background: rgb(16, 74, 168) 
+  }
+  
+  .input-label-container-collection input[type="file"] {
+    display: none;
+  }
+  
+  .custom-file-input {
+    background-color: rgb(21, 83, 181);
+    color: white; 
+    padding: 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .selected-file-name {
+    margin-top: 5px;
+    font-size: 14px;
+    color: white
+  }

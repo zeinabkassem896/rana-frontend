@@ -1,0 +1,14 @@
+
+  @media only screen and (max-width: 380px) {
+    .menunav {
+      display: none;
+    }
+ /* .fix-width-nav-l{
+  font-size: 27px;
+ } */
+
+ .decr-size-icon{
+padding: 5px;
+ }
+ 
+  }

@@ -1,0 +1,69 @@
+ .checkout-footer{
+   text-decoration: none;
+   margin-left: 15px;
+   color:black;
+}
+
+ .cart-footer{
+    text-decoration: none;
+    margin-right: 165px;
+   color:black;
+
+}
+.contactus-footer{
+    text-decoration: none;
+    margin-right: 115px;
+    color:black;
+}
+
+.findus-footer{
+    text-decoration: none;
+    
+    color:black;   
+}
+
+
+.blogs-footer{
+    text-decoration: none;
+    margin-right: 155px;
+    color:black;      
+}
+
+.login-footer{
+    text-decoration: none;
+    margin-right: 145px;
+    color:black;  
+}
+
+.register-footer{
+    text-decoration: none;
+    
+    color:black;     
+}  
+
+.home-footer{
+    text-decoration: none;
+    margin-right: 10px;
+    color:black;
+}
+
+  
+  /* @media (max-width: 375px) {
+  .footer-main-cl{
+    margin-left: 700px !;
+  } 
+    
+    
+  }
+   */
+
+.the-last-footer-title{
+    margin-right: 450px;
+}
+
+.footer-useful-link{
+    margin-right: 180px;
+}
+.fix-space-of-logo{
+    margin-right: 5px;
+}

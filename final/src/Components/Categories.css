@@ -1,0 +1,29 @@
+@media only screen and (max-width: 380px) {
+   .cor-categ{
+    font-size: 14px !important;
+    margin-top: 39px !important;
+    margin-bottom: -25px !important;
+    margin-right: 23px !important;
+   }
+   /* .any-solt-to{
+      font-size: small !important;
+      justify-content: center;
+      margin-right: 100px !important;
+     width: 100% !important;
+     height: 100% !important;
+      margin-top: 50px !important;
+   }
+   .help{
+      margin-right: 50px !important;
+      
+      
+   } */
+   .lala-incres{
+    margin-top: -10px !important; 
+    gap:-30px !important; 
+   }
+   .any-solt-to{
+      margin-top:-20px;
+   }
+  }
+

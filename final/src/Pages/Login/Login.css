@@ -1,0 +1,14 @@
+.login-link{
+    font-size: 14px ;
+    margin-top: 5px !important;
+   
+}
+.login-p{
+    margin-top: 3.4px;
+}
+
+@media (max-width: 375px) {
+.container-login{
+height: 20% !important;
+}
+}

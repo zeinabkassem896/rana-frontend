@@ -1,0 +1,70 @@
+.form-container-edit-admins {
+  position: absolute;
+  left: 690px;
+  top: 250px;
+  z-index: 1;
+  height: 40vh;
+  background: rgb(38, 38, 44);
+  border-radius: 12px;
+  padding-top: 20px;
+  min-height: 35vh;
+  height: fit-content;
+  min-width: 550px;
+}
+
+.form-edit-admins {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-label-container-admins-edit label {
+  color: white;
+}
+
+.input-label-container-admins-edit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label-admins-edit {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label-container-admins-edit input,
+.input-label-container-admins-edit textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(28, 105, 228);
+}
+
+
+.edit-admins-1 button,
+.cancel-admins-1 button {
+  background: rgb(21, 83, 181);
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.input-label-container-admins-edit .edit-admins-1 button:hover,
+.input-label-container-admins-edit .cancel-admins-1 button:hover {
+  background: rgb(16, 74, 168);
+}
+

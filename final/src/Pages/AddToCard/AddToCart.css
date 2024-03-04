@@ -1,0 +1,119 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.add-to-cart-container{
+  margin: 180px !important;
+}
+.buttonCartPlus {
+  background-color: #f2f2f2;
+  border: none;
+  color: rgb(51, 51, 255);
+  margin: 20px;
+  font-size: larger;
+}
+
+.buttonCartMinus {
+  background-color: #f2f2f2;
+  border: none;
+  color: rgb(250, 47, 47);
+  margin: 20px;
+  font-size: larger;
+}
+.cartplusminusinput {
+  min-width: 50px;
+  text-align: center;
+  
+}
+
+.trashCartPage{
+  cursor: pointer;
+  margin-right: 15px
+  
+}
+/* @media only screen and (max-width: 600px) {
+  .add-to-cart-container {
+    margin: 20px !important;
+   
+  }
+
+  .buttonCartPlus,
+  .buttonCartMinus {
+    margin: 2px !important; 
+  }
+.offset-lg-1{
+  border: solid red 2px;
+}
+  .trashCartPage {
+    margin-right: 0px !important; 
+  }
+  .cartplusminusinput {
+   
+    width: 20px !important; 
+    text-align: center;
+  }
+  .product-price-checkout{
+    font-size: smaller;
+    margin-right: 2px !important;
+    padding: 600px !important;
+    border: solid red 6px;
+  }
+  .check-products-details{
+    justify-content: center !important;
+    gap: 2px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center !important;
+  }
+  .fa-minus{
+    margin-right: 20px !important;
+  }
+  .fa-plus{
+    margin-left: 20px !important;
+  }
+} */
+/* 
+@media only screen and (max-width: 370px) { */
+  
+  /* .add-to-cart-container{
+    margin: 10px !important;
+    width:500px;
+  }
+  .add-tocart-butn{
+    width: 20px  !important;
+    height: 50px !important;
+  }
+
+.add-to-cart-img{
+  width: 10px  !important;
+  height: 40px !important;
+object-fit: cover;
+} */
+/* .section-addtocart{
+  display: flex;
+  flex-direction: row !important;
+  width: 50% !important;
+}
+.tr-ty{
+  display: flex;
+  flex-direction: column !important;
+  width: 20% !important;
+} */
+/* } */
+
+@media (max-width: 380px) {
+ .add-to-cart-img {
+width: 20% !important;
+height: 20% !important;
+ }
+.tr-ty{
+  display: flex;
+  flex-direction: column !important ;
+  width:100%;
+}
+.buttons-addtocart{
+  display: flex;
+  flex-direction: row !important;
+  width:10px;
+
+}
+}

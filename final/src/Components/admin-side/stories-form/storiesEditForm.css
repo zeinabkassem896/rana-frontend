@@ -1,0 +1,91 @@
+.form-container-edit-story {
+  position: absolute;
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  z-index: 1;
+  min-height: 75vh; 
+  min-width: 550px;
+  background: rgb(38, 38, 44); 
+  border-radius: 12px;
+  padding-top: 20px;
+}
+
+.form-edit-story {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-label-container-story-edit label {
+  color: white;
+}
+
+.input-label-container-story-edit {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label-story-edit {
+  margin-bottom: 5px; 
+  font-size: 16px; 
+  color: #333;
+   display: flex;
+  flex-direction: column;
+}
+
+.input-label-container-story-edit input,
+.input-label-container-story-edit textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(28, 105, 228);
+}
+
+.story-buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit-story-1 button,
+.cancel-story-1 button {
+  background: rgb(21, 83, 181);
+  color: #fff;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.input-label-container-story-edit .edit-story-1 button:hover,
+.input-label-container-story-edit .cancel-story-1 button:hover {
+  background: rgb(16, 74, 168);
+}
+
+.input-label-container-story input[type="file"] {
+  display: none;
+}
+
+.custom-file-input {
+  background-color: rgb(21, 83, 181);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-file-name {
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}

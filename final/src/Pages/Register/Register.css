@@ -1,0 +1,28 @@
+
+
+@media only screen and (max-width: 380px) {
+    .correct-resp{
+        margin-left:  100px !important;
+       
+        
+    }
+    .register-p{
+        font-size: 12px ;
+    }
+
+    .register-link{
+        font-size: 12px !important;
+        margin-top: 0.2px !important;   
+    }
+
+.pushtoright{
+ 
+ height: 42px !important;
+  margin: 30px 130px auto 65px !important;
+    
+}
+
+.ss-r{
+   
+}
+  }

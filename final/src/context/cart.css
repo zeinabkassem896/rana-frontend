@@ -1,0 +1,30 @@
+/*toast */
+.reactToastifyConfirmationButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reactToastifyConfirmationButtons button {
+  width: 100px;
+  border-radius: 10px;
+  background-color: #fce5ef;
+  border: solid 1px rgb(0, 0, 0, 0.4);
+  height: 30px;
+}
+
+.reactToastifyConfirmationBody p {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.reactToastifyConfirmationBody img {
+  width: 44px;
+  color: #fce5ef;
+}
+
+.reactToastifyConfirmationBody .toastPandImage {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
